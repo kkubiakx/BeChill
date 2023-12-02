@@ -8,13 +8,63 @@
 
 /* Begin PBXBuildFile section */
 		9929F8D42B14C5B400A1C1B6 /* BeChillApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9929F8D32B14C5B400A1C1B6 /* BeChillApp.swift */; };
-		9929F8D62B14C5B400A1C1B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9929F8D52B14C5B400A1C1B6 /* ContentView.swift */; };
-		9929F8D82B14C5B400A1C1B6 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9929F8D72B14C5B400A1C1B6 /* Item.swift */; };
 		9929F8DA2B14C5B500A1C1B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9929F8D92B14C5B500A1C1B6 /* Assets.xcassets */; };
 		9929F8DD2B14C5B500A1C1B6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9929F8DC2B14C5B500A1C1B6 /* Preview Assets.xcassets */; };
 		9929F8E72B14C5B600A1C1B6 /* BeChillTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9929F8E62B14C5B600A1C1B6 /* BeChillTests.swift */; };
 		9929F8F12B14C5B600A1C1B6 /* BeChillUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9929F8F02B14C5B600A1C1B6 /* BeChillUITests.swift */; };
 		9929F8F32B14C5B600A1C1B6 /* BeChillUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9929F8F22B14C5B600A1C1B6 /* BeChillUITestsLaunchTests.swift */; };
+		9929F9012B14C78700A1C1B6 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 9929F9002B14C78700A1C1B6 /* FirebaseAnalytics */; };
+		9929F9032B14C78700A1C1B6 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 9929F9022B14C78700A1C1B6 /* FirebaseAuth */; };
+		9929F9052B14C78700A1C1B6 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 9929F9042B14C78700A1C1B6 /* FirebaseFirestore */; };
+		9929F90A2B14CA9F00A1C1B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9929F9082B14CA9F00A1C1B6 /* ContentView.swift */; };
+		9929F90D2B14CAB800A1C1B6 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9929F90C2B14CAB800A1C1B6 /* Item.swift */; };
+		9929F91E2B14CAFF00A1C1B6 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9929F9182B14CAFF00A1C1B6 /* SignInView.swift */; };
+		9929F91F2B14CAFF00A1C1B6 /* EmailInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9929F9192B14CAFF00A1C1B6 /* EmailInputView.swift */; };
+		9929F9202B14CAFF00A1C1B6 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9929F91A2B14CAFF00A1C1B6 /* SignUpView.swift */; };
+		9929F9222B14CAFF00A1C1B6 /* SignUpOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9929F91C2B14CAFF00A1C1B6 /* SignUpOverlayView.swift */; };
+		9929F9232B14CAFF00A1C1B6 /* SignInOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9929F91D2B14CAFF00A1C1B6 /* SignInOverlayView.swift */; };
+		9929F9252B14CB0500A1C1B6 /* LogoNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9929F9242B14CB0500A1C1B6 /* LogoNameView.swift */; };
+		9929F9282B14CBE700A1C1B6 /* SignInWithApple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9929F9262B14CBE700A1C1B6 /* SignInWithApple.swift */; };
+		9929F9292B14CBE700A1C1B6 /* SignInWithGoogle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9929F9272B14CBE700A1C1B6 /* SignInWithGoogle.swift */; };
+		9929F92C2B14CBEF00A1C1B6 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9929F92A2B14CBEF00A1C1B6 /* Errors.swift */; };
+		9929F92D2B14CBEF00A1C1B6 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9929F92B2B14CBEF00A1C1B6 /* Utils.swift */; };
+		9929F9302B14CBF500A1C1B6 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9929F92E2B14CBF500A1C1B6 /* AuthService.swift */; };
+		9929F9312B14CBF500A1C1B6 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9929F92F2B14CBF500A1C1B6 /* DataService.swift */; };
+		9929F9332B14D2BD00A1C1B6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9929F9322B14D2BD00A1C1B6 /* GoogleService-Info.plist */; };
+		9929F94C2B161EAD00A1C1B6 /* Abuget.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9929F9352B161EAD00A1C1B6 /* Abuget.ttf */; };
+		9929F94D2B161EAD00A1C1B6 /* code block```
+Handwriting Fonts.zip in Resources */ = {isa = PBXBuildFile; fileRef = 9929F9362B161EAD00A1C1B6 /* code block```
+Handwriting Fonts.zip */; };
+		9929F94E2B161EAD00A1C1B6 /* Worstveld.inf in Resources */ = {isa = PBXBuildFile; fileRef = 9929F9382B161EAD00A1C1B6 /* Worstveld.inf */; };
+		9929F94F2B161EAD00A1C1B6 /* Worstveld oblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9929F9392B161EAD00A1C1B6 /* Worstveld oblique.otf */; };
+		9929F9502B161EAD00A1C1B6 /* Worstveld.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9929F93A2B161EAD00A1C1B6 /* Worstveld.otf */; };
+		9929F9512B161EAD00A1C1B6 /* Worstveld Oblique.inf in Resources */ = {isa = PBXBuildFile; fileRef = 9929F93B2B161EAD00A1C1B6 /* Worstveld Oblique.inf */; };
+		9929F9522B161EAD00A1C1B6 /* WorstveldSlingOblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9929F93C2B161EAD00A1C1B6 /* WorstveldSlingOblique.ttf */; };
+		9929F9532B161EAD00A1C1B6 /* Worstveld.pfm in Resources */ = {isa = PBXBuildFile; fileRef = 9929F93D2B161EAD00A1C1B6 /* Worstveld.pfm */; };
+		9929F9542B161EAD00A1C1B6 /* Worstveld.pfb in Resources */ = {isa = PBXBuildFile; fileRef = 9929F93E2B161EAD00A1C1B6 /* Worstveld.pfb */; };
+		9929F9552B161EAD00A1C1B6 /* Worstveld Oblique.afm in Resources */ = {isa = PBXBuildFile; fileRef = 9929F93F2B161EAD00A1C1B6 /* Worstveld Oblique.afm */; };
+		9929F9562B161EAD00A1C1B6 /* Worstveld Oblique.pfm in Resources */ = {isa = PBXBuildFile; fileRef = 9929F9402B161EAD00A1C1B6 /* Worstveld Oblique.pfm */; };
+		9929F9572B161EAD00A1C1B6 /* Worstveld Oblique.pfb in Resources */ = {isa = PBXBuildFile; fileRef = 9929F9412B161EAD00A1C1B6 /* Worstveld Oblique.pfb */; };
+		9929F9582B161EAD00A1C1B6 /* license.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9929F9422B161EAD00A1C1B6 /* license.txt */; };
+		9929F9592B161EAD00A1C1B6 /* WorstveldSling.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9929F9432B161EAD00A1C1B6 /* WorstveldSling.ttf */; };
+		9929F95A2B161EAD00A1C1B6 /* Worstveld.afm in Resources */ = {isa = PBXBuildFile; fileRef = 9929F9442B161EAD00A1C1B6 /* Worstveld.afm */; };
+		9929F95B2B161EAD00A1C1B6 /* Handwriting Fonts (1)..zip in Resources */ = {isa = PBXBuildFile; fileRef = 9929F9452B161EAD00A1C1B6 /* Handwriting Fonts (1)..zip */; };
+		9929F95C2B161EAD00A1C1B6 /* Handwriting Fonts (3)..zip in Resources */ = {isa = PBXBuildFile; fileRef = 9929F9462B161EAD00A1C1B6 /* Handwriting Fonts (3)..zip */; };
+		9929F95D2B161EAD00A1C1B6 /* Apalu.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9929F9472B161EAD00A1C1B6 /* Apalu.ttf */; };
+		9929F95E2B161EAD00A1C1B6 /* Reman.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9929F9482B161EAD00A1C1B6 /* Reman.ttf */; };
+		9929F95F2B161EAD00A1C1B6 /* Handwriting Fonts (2)..zip in Resources */ = {isa = PBXBuildFile; fileRef = 9929F9492B161EAD00A1C1B6 /* Handwriting Fonts (2)..zip */; };
+		9929F9602B161EAD00A1C1B6 /* Handwriting Fonts.zip in Resources */ = {isa = PBXBuildFile; fileRef = 9929F94A2B161EAD00A1C1B6 /* Handwriting Fonts.zip */; };
+		9929F9612B161EAD00A1C1B6 /* angelina.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 9929F94B2B161EAD00A1C1B6 /* angelina.TTF */; };
+		9929F9662B16A6BA00A1C1B6 /* MaterialBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9929F9652B16A6BA00A1C1B6 /* MaterialBlur.swift */; };
+		9929F9682B16A6C100A1C1B6 /* RegularBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9929F9672B16A6C100A1C1B6 /* RegularBlur.swift */; };
+		9929F9772B16BC8D00A1C1B6 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9929F9762B16BC8D00A1C1B6 /* AppRouter.swift */; };
+		9929F97E2B16C01700A1C1B6 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9929F97D2B16C01700A1C1B6 /* Post.swift */; };
+		9929F9852B179CE300A1C1B6 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9929F9842B179CE300A1C1B6 /* Color.swift */; };
+		9929F9872B179DA400A1C1B6 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9929F9862B179DA400A1C1B6 /* TextField.swift */; };
+		9929F9892B179DBA00A1C1B6 /* SecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9929F9882B179DBA00A1C1B6 /* SecureField.swift */; };
+		9929F98B2B179E0A00A1C1B6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9929F98A2B179E0A00A1C1B6 /* Constants.swift */; };
+		9929F98D2B179E4300A1C1B6 /* UserDefaultsUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9929F98C2B179E4300A1C1B6 /* UserDefaultsUtils.swift */; };
+		999CF74D2B1ABC550054798E /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999CF74C2B1ABC550054798E /* PostView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +87,6 @@
 /* Begin PBXFileReference section */
 		9929F8D02B14C5B400A1C1B6 /* BeChill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeChill.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9929F8D32B14C5B400A1C1B6 /* BeChillApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeChillApp.swift; sourceTree = "<group>"; };
-		9929F8D52B14C5B400A1C1B6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		9929F8D72B14C5B400A1C1B6 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		9929F8D92B14C5B500A1C1B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9929F8DC2B14C5B500A1C1B6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9929F8E22B14C5B500A1C1B6 /* BeChillTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeChillTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +94,55 @@
 		9929F8EC2B14C5B600A1C1B6 /* BeChillUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeChillUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9929F8F02B14C5B600A1C1B6 /* BeChillUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeChillUITests.swift; sourceTree = "<group>"; };
 		9929F8F22B14C5B600A1C1B6 /* BeChillUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeChillUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9929F9082B14CA9F00A1C1B6 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9929F90C2B14CAB800A1C1B6 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		9929F9182B14CAFF00A1C1B6 /* SignInView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		9929F9192B14CAFF00A1C1B6 /* EmailInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailInputView.swift; sourceTree = "<group>"; };
+		9929F91A2B14CAFF00A1C1B6 /* SignUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		9929F91C2B14CAFF00A1C1B6 /* SignUpOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpOverlayView.swift; sourceTree = "<group>"; };
+		9929F91D2B14CAFF00A1C1B6 /* SignInOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInOverlayView.swift; sourceTree = "<group>"; };
+		9929F9242B14CB0500A1C1B6 /* LogoNameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoNameView.swift; sourceTree = "<group>"; };
+		9929F9262B14CBE700A1C1B6 /* SignInWithApple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInWithApple.swift; sourceTree = "<group>"; };
+		9929F9272B14CBE700A1C1B6 /* SignInWithGoogle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInWithGoogle.swift; sourceTree = "<group>"; };
+		9929F92A2B14CBEF00A1C1B6 /* Errors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		9929F92B2B14CBEF00A1C1B6 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		9929F92E2B14CBF500A1C1B6 /* AuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		9929F92F2B14CBF500A1C1B6 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		9929F9322B14D2BD00A1C1B6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../BeChillOld/BeChill/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9929F9352B161EAD00A1C1B6 /* Abuget.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Abuget.ttf; sourceTree = "<group>"; };
+		9929F9362B161EAD00A1C1B6 /* code block```
+Handwriting Fonts.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "code block```\nHandwriting Fonts.zip"; sourceTree = "<group>"; };
+		9929F9382B161EAD00A1C1B6 /* Worstveld.inf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Worstveld.inf; sourceTree = "<group>"; };
+		9929F9392B161EAD00A1C1B6 /* Worstveld oblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Worstveld oblique.otf"; sourceTree = "<group>"; };
+		9929F93A2B161EAD00A1C1B6 /* Worstveld.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Worstveld.otf; sourceTree = "<group>"; };
+		9929F93B2B161EAD00A1C1B6 /* Worstveld Oblique.inf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Worstveld Oblique.inf"; sourceTree = "<group>"; };
+		9929F93C2B161EAD00A1C1B6 /* WorstveldSlingOblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = WorstveldSlingOblique.ttf; sourceTree = "<group>"; };
+		9929F93D2B161EAD00A1C1B6 /* Worstveld.pfm */ = {isa = PBXFileReference; lastKnownFileType = file; path = Worstveld.pfm; sourceTree = "<group>"; };
+		9929F93E2B161EAD00A1C1B6 /* Worstveld.pfb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Worstveld.pfb; sourceTree = "<group>"; };
+		9929F93F2B161EAD00A1C1B6 /* Worstveld Oblique.afm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Worstveld Oblique.afm"; sourceTree = "<group>"; };
+		9929F9402B161EAD00A1C1B6 /* Worstveld Oblique.pfm */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Worstveld Oblique.pfm"; sourceTree = "<group>"; };
+		9929F9412B161EAD00A1C1B6 /* Worstveld Oblique.pfb */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Worstveld Oblique.pfb"; sourceTree = "<group>"; };
+		9929F9422B161EAD00A1C1B6 /* license.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = license.txt; sourceTree = "<group>"; };
+		9929F9432B161EAD00A1C1B6 /* WorstveldSling.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = WorstveldSling.ttf; sourceTree = "<group>"; };
+		9929F9442B161EAD00A1C1B6 /* Worstveld.afm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Worstveld.afm; sourceTree = "<group>"; };
+		9929F9452B161EAD00A1C1B6 /* Handwriting Fonts (1)..zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "Handwriting Fonts (1)..zip"; sourceTree = "<group>"; };
+		9929F9462B161EAD00A1C1B6 /* Handwriting Fonts (3)..zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "Handwriting Fonts (3)..zip"; sourceTree = "<group>"; };
+		9929F9472B161EAD00A1C1B6 /* Apalu.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Apalu.ttf; sourceTree = "<group>"; };
+		9929F9482B161EAD00A1C1B6 /* Reman.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Reman.ttf; sourceTree = "<group>"; };
+		9929F9492B161EAD00A1C1B6 /* Handwriting Fonts (2)..zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "Handwriting Fonts (2)..zip"; sourceTree = "<group>"; };
+		9929F94A2B161EAD00A1C1B6 /* Handwriting Fonts.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "Handwriting Fonts.zip"; sourceTree = "<group>"; };
+		9929F94B2B161EAD00A1C1B6 /* angelina.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = angelina.TTF; sourceTree = "<group>"; };
+		9929F9642B16535C00A1C1B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9929F9652B16A6BA00A1C1B6 /* MaterialBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialBlur.swift; sourceTree = "<group>"; };
+		9929F9672B16A6C100A1C1B6 /* RegularBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegularBlur.swift; sourceTree = "<group>"; };
+		9929F9762B16BC8D00A1C1B6 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		9929F97D2B16C01700A1C1B6 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		9929F9842B179CE300A1C1B6 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		9929F9862B179DA400A1C1B6 /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		9929F9882B179DBA00A1C1B6 /* SecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureField.swift; sourceTree = "<group>"; };
+		9929F98A2B179E0A00A1C1B6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9929F98C2B179E4300A1C1B6 /* UserDefaultsUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsUtils.swift; sourceTree = "<group>"; };
+		999CF74C2B1ABC550054798E /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +150,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9929F9012B14C78700A1C1B6 /* FirebaseAnalytics in Frameworks */,
+				9929F9032B14C78700A1C1B6 /* FirebaseAuth in Frameworks */,
+				9929F9052B14C78700A1C1B6 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,9 +196,15 @@
 		9929F8D22B14C5B400A1C1B6 /* BeChill */ = {
 			isa = PBXGroup;
 			children = (
+				9929F9102B14CABF00A1C1B6 /* Utils */,
+				9929F9812B179CB500A1C1B6 /* Extensions */,
+				9929F9642B16535C00A1C1B6 /* Info.plist */,
+				9929F9342B161EAD00A1C1B6 /* Fonts */,
+				9929F90E2B14CABF00A1C1B6 /* Service */,
+				9929F90B2B14CAB800A1C1B6 /* Model */,
+				9929F9062B14CA9F00A1C1B6 /* View */,
 				9929F8D32B14C5B400A1C1B6 /* BeChillApp.swift */,
-				9929F8D52B14C5B400A1C1B6 /* ContentView.swift */,
-				9929F8D72B14C5B400A1C1B6 /* Item.swift */,
+				9929F9322B14D2BD00A1C1B6 /* GoogleService-Info.plist */,
 				9929F8D92B14C5B500A1C1B6 /* Assets.xcassets */,
 				9929F8DB2B14C5B500A1C1B6 /* Preview Content */,
 			);
@@ -130,6 +236,136 @@
 			path = BeChillUITests;
 			sourceTree = "<group>";
 		};
+		9929F9062B14CA9F00A1C1B6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9929F9072B14CA9F00A1C1B6 /* Screen */,
+				9929F9092B14CA9F00A1C1B6 /* Subview */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9929F9072B14CA9F00A1C1B6 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				9929F9182B14CAFF00A1C1B6 /* SignInView.swift */,
+				9929F91A2B14CAFF00A1C1B6 /* SignUpView.swift */,
+				9929F9082B14CA9F00A1C1B6 /* ContentView.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		9929F9092B14CA9F00A1C1B6 /* Subview */ = {
+			isa = PBXGroup;
+			children = (
+				9929F9672B16A6C100A1C1B6 /* RegularBlur.swift */,
+				9929F9652B16A6BA00A1C1B6 /* MaterialBlur.swift */,
+				9929F9192B14CAFF00A1C1B6 /* EmailInputView.swift */,
+				9929F9242B14CB0500A1C1B6 /* LogoNameView.swift */,
+				9929F91D2B14CAFF00A1C1B6 /* SignInOverlayView.swift */,
+				9929F91C2B14CAFF00A1C1B6 /* SignUpOverlayView.swift */,
+				999CF74C2B1ABC550054798E /* PostView.swift */,
+			);
+			path = Subview;
+			sourceTree = "<group>";
+		};
+		9929F90B2B14CAB800A1C1B6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9929F90C2B14CAB800A1C1B6 /* Item.swift */,
+				9929F97D2B16C01700A1C1B6 /* Post.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9929F90E2B14CABF00A1C1B6 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				9929F90F2B14CABF00A1C1B6 /* Auth */,
+				9929F9112B14CABF00A1C1B6 /* Firebase */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		9929F90F2B14CABF00A1C1B6 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				9929F9262B14CBE700A1C1B6 /* SignInWithApple.swift */,
+				9929F9272B14CBE700A1C1B6 /* SignInWithGoogle.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		9929F9102B14CABF00A1C1B6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9929F92A2B14CBEF00A1C1B6 /* Errors.swift */,
+				9929F92B2B14CBEF00A1C1B6 /* Utils.swift */,
+				9929F9762B16BC8D00A1C1B6 /* AppRouter.swift */,
+				9929F98A2B179E0A00A1C1B6 /* Constants.swift */,
+				9929F98C2B179E4300A1C1B6 /* UserDefaultsUtils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		9929F9112B14CABF00A1C1B6 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				9929F92E2B14CBF500A1C1B6 /* AuthService.swift */,
+				9929F92F2B14CBF500A1C1B6 /* DataService.swift */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		9929F9342B161EAD00A1C1B6 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9929F9352B161EAD00A1C1B6 /* Abuget.ttf */,
+				9929F9362B161EAD00A1C1B6 /* code block```
+Handwriting Fonts.zip */,
+				9929F9372B161EAD00A1C1B6 /* Handwriting Fonts (1). */,
+				9929F9452B161EAD00A1C1B6 /* Handwriting Fonts (1)..zip */,
+				9929F9462B161EAD00A1C1B6 /* Handwriting Fonts (3)..zip */,
+				9929F9472B161EAD00A1C1B6 /* Apalu.ttf */,
+				9929F9482B161EAD00A1C1B6 /* Reman.ttf */,
+				9929F9492B161EAD00A1C1B6 /* Handwriting Fonts (2)..zip */,
+				9929F94A2B161EAD00A1C1B6 /* Handwriting Fonts.zip */,
+				9929F94B2B161EAD00A1C1B6 /* angelina.TTF */,
+			);
+			name = Fonts;
+			path = BeChill/Fonts;
+			sourceTree = SOURCE_ROOT;
+		};
+		9929F9372B161EAD00A1C1B6 /* Handwriting Fonts (1). */ = {
+			isa = PBXGroup;
+			children = (
+				9929F9382B161EAD00A1C1B6 /* Worstveld.inf */,
+				9929F9392B161EAD00A1C1B6 /* Worstveld oblique.otf */,
+				9929F93A2B161EAD00A1C1B6 /* Worstveld.otf */,
+				9929F93B2B161EAD00A1C1B6 /* Worstveld Oblique.inf */,
+				9929F93C2B161EAD00A1C1B6 /* WorstveldSlingOblique.ttf */,
+				9929F93D2B161EAD00A1C1B6 /* Worstveld.pfm */,
+				9929F93E2B161EAD00A1C1B6 /* Worstveld.pfb */,
+				9929F93F2B161EAD00A1C1B6 /* Worstveld Oblique.afm */,
+				9929F9402B161EAD00A1C1B6 /* Worstveld Oblique.pfm */,
+				9929F9412B161EAD00A1C1B6 /* Worstveld Oblique.pfb */,
+				9929F9422B161EAD00A1C1B6 /* license.txt */,
+				9929F9432B161EAD00A1C1B6 /* WorstveldSling.ttf */,
+				9929F9442B161EAD00A1C1B6 /* Worstveld.afm */,
+			);
+			path = "Handwriting Fonts (1).";
+			sourceTree = "<group>";
+		};
+		9929F9812B179CB500A1C1B6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9929F9842B179CE300A1C1B6 /* Color.swift */,
+				9929F9862B179DA400A1C1B6 /* TextField.swift */,
+				9929F9882B179DBA00A1C1B6 /* SecureField.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +382,11 @@
 			dependencies = (
 			);
 			name = BeChill;
+			packageProductDependencies = (
+				9929F9002B14C78700A1C1B6 /* FirebaseAnalytics */,
+				9929F9022B14C78700A1C1B6 /* FirebaseAuth */,
+				9929F9042B14C78700A1C1B6 /* FirebaseFirestore */,
+			);
 			productName = BeChill;
 			productReference = 9929F8D02B14C5B400A1C1B6 /* BeChill.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +459,9 @@
 				Base,
 			);
 			mainGroup = 9929F8C72B14C5B400A1C1B6;
+			packageReferences = (
+				9929F8FF2B14C78700A1C1B6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 9929F8D12B14C5B400A1C1B6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -234,8 +478,32 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9929F9532B161EAD00A1C1B6 /* Worstveld.pfm in Resources */,
+				9929F95A2B161EAD00A1C1B6 /* Worstveld.afm in Resources */,
+				9929F9562B161EAD00A1C1B6 /* Worstveld Oblique.pfm in Resources */,
+				9929F95D2B161EAD00A1C1B6 /* Apalu.ttf in Resources */,
+				9929F95E2B161EAD00A1C1B6 /* Reman.ttf in Resources */,
+				9929F9542B161EAD00A1C1B6 /* Worstveld.pfb in Resources */,
+				9929F9572B161EAD00A1C1B6 /* Worstveld Oblique.pfb in Resources */,
+				9929F9512B161EAD00A1C1B6 /* Worstveld Oblique.inf in Resources */,
+				9929F95F2B161EAD00A1C1B6 /* Handwriting Fonts (2)..zip in Resources */,
+				9929F95C2B161EAD00A1C1B6 /* Handwriting Fonts (3)..zip in Resources */,
+				9929F9522B161EAD00A1C1B6 /* WorstveldSlingOblique.ttf in Resources */,
+				9929F9592B161EAD00A1C1B6 /* WorstveldSling.ttf in Resources */,
+				9929F94F2B161EAD00A1C1B6 /* Worstveld oblique.otf in Resources */,
+				9929F95B2B161EAD00A1C1B6 /* Handwriting Fonts (1)..zip in Resources */,
 				9929F8DD2B14C5B500A1C1B6 /* Preview Assets.xcassets in Resources */,
 				9929F8DA2B14C5B500A1C1B6 /* Assets.xcassets in Resources */,
+				9929F94C2B161EAD00A1C1B6 /* Abuget.ttf in Resources */,
+				9929F94D2B161EAD00A1C1B6 /* code block```
+Handwriting Fonts.zip in Resources */,
+				9929F94E2B161EAD00A1C1B6 /* Worstveld.inf in Resources */,
+				9929F9582B161EAD00A1C1B6 /* license.txt in Resources */,
+				9929F9612B161EAD00A1C1B6 /* angelina.TTF in Resources */,
+				9929F9502B161EAD00A1C1B6 /* Worstveld.otf in Resources */,
+				9929F9332B14D2BD00A1C1B6 /* GoogleService-Info.plist in Resources */,
+				9929F9552B161EAD00A1C1B6 /* Worstveld Oblique.afm in Resources */,
+				9929F9602B161EAD00A1C1B6 /* Handwriting Fonts.zip in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,9 +528,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9929F8D62B14C5B400A1C1B6 /* ContentView.swift in Sources */,
-				9929F8D82B14C5B400A1C1B6 /* Item.swift in Sources */,
+				9929F9222B14CAFF00A1C1B6 /* SignUpOverlayView.swift in Sources */,
+				9929F97E2B16C01700A1C1B6 /* Post.swift in Sources */,
+				9929F9252B14CB0500A1C1B6 /* LogoNameView.swift in Sources */,
+				9929F9872B179DA400A1C1B6 /* TextField.swift in Sources */,
+				9929F9772B16BC8D00A1C1B6 /* AppRouter.swift in Sources */,
+				9929F91E2B14CAFF00A1C1B6 /* SignInView.swift in Sources */,
+				9929F98B2B179E0A00A1C1B6 /* Constants.swift in Sources */,
+				9929F91F2B14CAFF00A1C1B6 /* EmailInputView.swift in Sources */,
+				9929F90D2B14CAB800A1C1B6 /* Item.swift in Sources */,
+				999CF74D2B1ABC550054798E /* PostView.swift in Sources */,
+				9929F92D2B14CBEF00A1C1B6 /* Utils.swift in Sources */,
+				9929F92C2B14CBEF00A1C1B6 /* Errors.swift in Sources */,
+				9929F90A2B14CA9F00A1C1B6 /* ContentView.swift in Sources */,
+				9929F9202B14CAFF00A1C1B6 /* SignUpView.swift in Sources */,
+				9929F9662B16A6BA00A1C1B6 /* MaterialBlur.swift in Sources */,
+				9929F9292B14CBE700A1C1B6 /* SignInWithGoogle.swift in Sources */,
+				9929F9852B179CE300A1C1B6 /* Color.swift in Sources */,
+				9929F9682B16A6C100A1C1B6 /* RegularBlur.swift in Sources */,
 				9929F8D42B14C5B400A1C1B6 /* BeChillApp.swift in Sources */,
+				9929F9282B14CBE700A1C1B6 /* SignInWithApple.swift in Sources */,
+				9929F9232B14CAFF00A1C1B6 /* SignInOverlayView.swift in Sources */,
+				9929F98D2B179E4300A1C1B6 /* UserDefaultsUtils.swift in Sources */,
+				9929F9892B179DBA00A1C1B6 /* SecureField.swift in Sources */,
+				9929F9302B14CBF500A1C1B6 /* AuthService.swift in Sources */,
+				9929F9312B14CBF500A1C1B6 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +593,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -337,6 +628,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				"EXCLUDED_ARCHS[sdk=*]" = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -355,6 +647,7 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
+				NEW_SETTING = "";
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
@@ -412,6 +705,7 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				NEW_SETTING = "";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
@@ -429,6 +723,7 @@
 				DEVELOPMENT_TEAM = 7A56SCUDQD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BeChill/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -458,6 +753,7 @@
 				DEVELOPMENT_TEAM = 7A56SCUDQD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BeChill/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -592,6 +888,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9929F8FF2B14C78700A1C1B6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.18.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9929F9002B14C78700A1C1B6 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9929F8FF2B14C78700A1C1B6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		9929F9022B14C78700A1C1B6 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9929F8FF2B14C78700A1C1B6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		9929F9042B14C78700A1C1B6 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9929F8FF2B14C78700A1C1B6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9929F8C82B14C5B400A1C1B6 /* Project object */;
 }
