@@ -56,7 +56,7 @@ struct SignUpView: View {
                     .frame(height: 80)
 
 
-                NavigationLink(destination: SignUpView()) {
+                Button (action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                     HStack {
                         Text("Already have an account?")
 
