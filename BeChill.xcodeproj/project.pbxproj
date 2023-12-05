@@ -16,10 +16,7 @@
 		9929F90A2B14CA9F00A1C1B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9929F9082B14CA9F00A1C1B6 /* ContentView.swift */; };
 		9929F90D2B14CAB800A1C1B6 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9929F90C2B14CAB800A1C1B6 /* Item.swift */; };
 		9929F91E2B14CAFF00A1C1B6 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9929F9182B14CAFF00A1C1B6 /* SignInView.swift */; };
-		9929F91F2B14CAFF00A1C1B6 /* EmailInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9929F9192B14CAFF00A1C1B6 /* EmailInputView.swift */; };
 		9929F9202B14CAFF00A1C1B6 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9929F91A2B14CAFF00A1C1B6 /* SignUpView.swift */; };
-		9929F9222B14CAFF00A1C1B6 /* SignUpOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9929F91C2B14CAFF00A1C1B6 /* SignUpOverlayView.swift */; };
-		9929F9232B14CAFF00A1C1B6 /* SignInOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9929F91D2B14CAFF00A1C1B6 /* SignInOverlayView.swift */; };
 		9929F9252B14CB0500A1C1B6 /* LogoNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9929F9242B14CB0500A1C1B6 /* LogoNameView.swift */; };
 		9929F9282B14CBE700A1C1B6 /* SignInWithApple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9929F9262B14CBE700A1C1B6 /* SignInWithApple.swift */; };
 		9929F9292B14CBE700A1C1B6 /* SignInWithGoogle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9929F9272B14CBE700A1C1B6 /* SignInWithGoogle.swift */; };
@@ -28,9 +25,6 @@
 		9929F9302B14CBF500A1C1B6 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9929F92E2B14CBF500A1C1B6 /* AuthService.swift */; };
 		9929F9312B14CBF500A1C1B6 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9929F92F2B14CBF500A1C1B6 /* DataService.swift */; };
 		9929F94C2B161EAD00A1C1B6 /* Abuget.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9929F9352B161EAD00A1C1B6 /* Abuget.ttf */; };
-		9929F94D2B161EAD00A1C1B6 /* code block```
-Handwriting Fonts.zip in Resources */ = {isa = PBXBuildFile; fileRef = 9929F9362B161EAD00A1C1B6 /* code block```
-Handwriting Fonts.zip */; };
 		9929F94E2B161EAD00A1C1B6 /* Worstveld.inf in Resources */ = {isa = PBXBuildFile; fileRef = 9929F9382B161EAD00A1C1B6 /* Worstveld.inf */; };
 		9929F94F2B161EAD00A1C1B6 /* Worstveld oblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9929F9392B161EAD00A1C1B6 /* Worstveld oblique.otf */; };
 		9929F9502B161EAD00A1C1B6 /* Worstveld.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9929F93A2B161EAD00A1C1B6 /* Worstveld.otf */; };
@@ -44,12 +38,8 @@ Handwriting Fonts.zip */; };
 		9929F9582B161EAD00A1C1B6 /* license.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9929F9422B161EAD00A1C1B6 /* license.txt */; };
 		9929F9592B161EAD00A1C1B6 /* WorstveldSling.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9929F9432B161EAD00A1C1B6 /* WorstveldSling.ttf */; };
 		9929F95A2B161EAD00A1C1B6 /* Worstveld.afm in Resources */ = {isa = PBXBuildFile; fileRef = 9929F9442B161EAD00A1C1B6 /* Worstveld.afm */; };
-		9929F95B2B161EAD00A1C1B6 /* Handwriting Fonts (1)..zip in Resources */ = {isa = PBXBuildFile; fileRef = 9929F9452B161EAD00A1C1B6 /* Handwriting Fonts (1)..zip */; };
-		9929F95C2B161EAD00A1C1B6 /* Handwriting Fonts (3)..zip in Resources */ = {isa = PBXBuildFile; fileRef = 9929F9462B161EAD00A1C1B6 /* Handwriting Fonts (3)..zip */; };
 		9929F95D2B161EAD00A1C1B6 /* Apalu.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9929F9472B161EAD00A1C1B6 /* Apalu.ttf */; };
 		9929F95E2B161EAD00A1C1B6 /* Reman.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9929F9482B161EAD00A1C1B6 /* Reman.ttf */; };
-		9929F95F2B161EAD00A1C1B6 /* Handwriting Fonts (2)..zip in Resources */ = {isa = PBXBuildFile; fileRef = 9929F9492B161EAD00A1C1B6 /* Handwriting Fonts (2)..zip */; };
-		9929F9602B161EAD00A1C1B6 /* Handwriting Fonts.zip in Resources */ = {isa = PBXBuildFile; fileRef = 9929F94A2B161EAD00A1C1B6 /* Handwriting Fonts.zip */; };
 		9929F9612B161EAD00A1C1B6 /* angelina.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 9929F94B2B161EAD00A1C1B6 /* angelina.TTF */; };
 		9929F9662B16A6BA00A1C1B6 /* MaterialBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9929F9652B16A6BA00A1C1B6 /* MaterialBlur.swift */; };
 		9929F9682B16A6C100A1C1B6 /* RegularBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9929F9672B16A6C100A1C1B6 /* RegularBlur.swift */; };
@@ -60,7 +50,13 @@ Handwriting Fonts.zip */; };
 		9929F9892B179DBA00A1C1B6 /* SecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9929F9882B179DBA00A1C1B6 /* SecureField.swift */; };
 		9929F98B2B179E0A00A1C1B6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9929F98A2B179E0A00A1C1B6 /* Constants.swift */; };
 		9929F98D2B179E4300A1C1B6 /* UserDefaultsUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9929F98C2B179E4300A1C1B6 /* UserDefaultsUtils.swift */; };
+		9953D5A92B1C45DA009B1A31 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9953D5A82B1C45DA009B1A31 /* ProfileView.swift */; };
+		9953D5AB2B1C45FF009B1A31 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9953D5AA2B1C45FF009B1A31 /* User.swift */; };
+		9953D5AE2B1CDC51009B1A31 /* TabStateScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9953D5AD2B1CDC51009B1A31 /* TabStateScrollView.swift */; };
+		9953D5B02B1CDD73009B1A31 /* HotFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9953D5AF2B1CDD73009B1A31 /* HotFeedView.swift */; };
 		999CF74D2B1ABC550054798E /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999CF74C2B1ABC550054798E /* PostView.swift */; };
+		99E57B732B1B6ED400D524EB /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E57B722B1B6ED400D524EB /* FeedView.swift */; };
+		99F83CE42B1B688100497966 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F83CE32B1B688100497966 /* TabBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,13 +86,10 @@ Handwriting Fonts.zip */; };
 		9929F8EC2B14C5B600A1C1B6 /* BeChillUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeChillUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9929F8F02B14C5B600A1C1B6 /* BeChillUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeChillUITests.swift; sourceTree = "<group>"; };
 		9929F8F22B14C5B600A1C1B6 /* BeChillUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeChillUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		9929F9082B14CA9F00A1C1B6 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9929F9082B14CA9F00A1C1B6 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = View/Subviews/ContentView.swift; sourceTree = "<group>"; };
 		9929F90C2B14CAB800A1C1B6 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		9929F9182B14CAFF00A1C1B6 /* SignInView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
-		9929F9192B14CAFF00A1C1B6 /* EmailInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailInputView.swift; sourceTree = "<group>"; };
 		9929F91A2B14CAFF00A1C1B6 /* SignUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
-		9929F91C2B14CAFF00A1C1B6 /* SignUpOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpOverlayView.swift; sourceTree = "<group>"; };
-		9929F91D2B14CAFF00A1C1B6 /* SignInOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInOverlayView.swift; sourceTree = "<group>"; };
 		9929F9242B14CB0500A1C1B6 /* LogoNameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoNameView.swift; sourceTree = "<group>"; };
 		9929F9262B14CBE700A1C1B6 /* SignInWithApple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInWithApple.swift; sourceTree = "<group>"; };
 		9929F9272B14CBE700A1C1B6 /* SignInWithGoogle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInWithGoogle.swift; sourceTree = "<group>"; };
@@ -105,8 +98,6 @@ Handwriting Fonts.zip */; };
 		9929F92E2B14CBF500A1C1B6 /* AuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		9929F92F2B14CBF500A1C1B6 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		9929F9352B161EAD00A1C1B6 /* Abuget.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Abuget.ttf; sourceTree = "<group>"; };
-		9929F9362B161EAD00A1C1B6 /* code block```
-Handwriting Fonts.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "code block```\nHandwriting Fonts.zip"; sourceTree = "<group>"; };
 		9929F9382B161EAD00A1C1B6 /* Worstveld.inf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Worstveld.inf; sourceTree = "<group>"; };
 		9929F9392B161EAD00A1C1B6 /* Worstveld oblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Worstveld oblique.otf"; sourceTree = "<group>"; };
 		9929F93A2B161EAD00A1C1B6 /* Worstveld.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Worstveld.otf; sourceTree = "<group>"; };
@@ -120,12 +111,8 @@ Handwriting Fonts.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.
 		9929F9422B161EAD00A1C1B6 /* license.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = license.txt; sourceTree = "<group>"; };
 		9929F9432B161EAD00A1C1B6 /* WorstveldSling.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = WorstveldSling.ttf; sourceTree = "<group>"; };
 		9929F9442B161EAD00A1C1B6 /* Worstveld.afm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Worstveld.afm; sourceTree = "<group>"; };
-		9929F9452B161EAD00A1C1B6 /* Handwriting Fonts (1)..zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "Handwriting Fonts (1)..zip"; sourceTree = "<group>"; };
-		9929F9462B161EAD00A1C1B6 /* Handwriting Fonts (3)..zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "Handwriting Fonts (3)..zip"; sourceTree = "<group>"; };
 		9929F9472B161EAD00A1C1B6 /* Apalu.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Apalu.ttf; sourceTree = "<group>"; };
 		9929F9482B161EAD00A1C1B6 /* Reman.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Reman.ttf; sourceTree = "<group>"; };
-		9929F9492B161EAD00A1C1B6 /* Handwriting Fonts (2)..zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "Handwriting Fonts (2)..zip"; sourceTree = "<group>"; };
-		9929F94A2B161EAD00A1C1B6 /* Handwriting Fonts.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "Handwriting Fonts.zip"; sourceTree = "<group>"; };
 		9929F94B2B161EAD00A1C1B6 /* angelina.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = angelina.TTF; sourceTree = "<group>"; };
 		9929F9642B16535C00A1C1B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		9929F9652B16A6BA00A1C1B6 /* MaterialBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialBlur.swift; sourceTree = "<group>"; };
@@ -137,7 +124,13 @@ Handwriting Fonts.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.
 		9929F9882B179DBA00A1C1B6 /* SecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureField.swift; sourceTree = "<group>"; };
 		9929F98A2B179E0A00A1C1B6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		9929F98C2B179E4300A1C1B6 /* UserDefaultsUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsUtils.swift; sourceTree = "<group>"; };
+		9953D5A82B1C45DA009B1A31 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		9953D5AA2B1C45FF009B1A31 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		9953D5AD2B1CDC51009B1A31 /* TabStateScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabStateScrollView.swift; sourceTree = "<group>"; };
+		9953D5AF2B1CDD73009B1A31 /* HotFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotFeedView.swift; sourceTree = "<group>"; };
 		999CF74C2B1ABC550054798E /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		99E57B722B1B6ED400D524EB /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		99F83CE32B1B688100497966 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,15 +181,15 @@ Handwriting Fonts.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.
 		9929F8D22B14C5B400A1C1B6 /* BeChill */ = {
 			isa = PBXGroup;
 			children = (
+				99E57B742B1B810000D524EB /* Assets */,
 				9929F9102B14CABF00A1C1B6 /* Utils */,
 				9929F9812B179CB500A1C1B6 /* Extensions */,
 				9929F9642B16535C00A1C1B6 /* Info.plist */,
-				9929F9342B161EAD00A1C1B6 /* Fonts */,
 				9929F90E2B14CABF00A1C1B6 /* Service */,
 				9929F90B2B14CAB800A1C1B6 /* Model */,
 				9929F9062B14CA9F00A1C1B6 /* View */,
 				9929F8D32B14C5B400A1C1B6 /* BeChillApp.swift */,
-				9929F8D92B14C5B500A1C1B6 /* Assets.xcassets */,
+				9929F9082B14CA9F00A1C1B6 /* ContentView.swift */,
 				9929F8DB2B14C5B500A1C1B6 /* Preview Content */,
 			);
 			path = BeChill;
@@ -230,34 +223,25 @@ Handwriting Fonts.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.
 		9929F9062B14CA9F00A1C1B6 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				9929F9072B14CA9F00A1C1B6 /* Screen */,
-				9929F9092B14CA9F00A1C1B6 /* Subview */,
+				99F83CE12B1B66E500497966 /* Auth */,
+				99E57B712B1B6E9400D524EB /* Feed */,
+				99E82FBA2B1DB7C900F39301 /* Post */,
+				9953D5A72B1C45C2009B1A31 /* Profile */,
+				99F83CE22B1B683100497966 /* TabBar */,
+				9953D5AC2B1CDC36009B1A31 /* Helpers */,
+				9929F9092B14CA9F00A1C1B6 /* Subviews */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		9929F9072B14CA9F00A1C1B6 /* Screen */ = {
-			isa = PBXGroup;
-			children = (
-				9929F9182B14CAFF00A1C1B6 /* SignInView.swift */,
-				9929F91A2B14CAFF00A1C1B6 /* SignUpView.swift */,
-				9929F9082B14CA9F00A1C1B6 /* ContentView.swift */,
-			);
-			path = Screen;
-			sourceTree = "<group>";
-		};
-		9929F9092B14CA9F00A1C1B6 /* Subview */ = {
+		9929F9092B14CA9F00A1C1B6 /* Subviews */ = {
 			isa = PBXGroup;
 			children = (
 				9929F9672B16A6C100A1C1B6 /* RegularBlur.swift */,
 				9929F9652B16A6BA00A1C1B6 /* MaterialBlur.swift */,
-				9929F9192B14CAFF00A1C1B6 /* EmailInputView.swift */,
 				9929F9242B14CB0500A1C1B6 /* LogoNameView.swift */,
-				9929F91D2B14CAFF00A1C1B6 /* SignInOverlayView.swift */,
-				9929F91C2B14CAFF00A1C1B6 /* SignUpOverlayView.swift */,
-				999CF74C2B1ABC550054798E /* PostView.swift */,
 			);
-			path = Subview;
+			path = Subviews;
 			sourceTree = "<group>";
 		};
 		9929F90B2B14CAB800A1C1B6 /* Model */ = {
@@ -265,6 +249,7 @@ Handwriting Fonts.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.
 			children = (
 				9929F90C2B14CAB800A1C1B6 /* Item.swift */,
 				9929F97D2B16C01700A1C1B6 /* Post.swift */,
+				9953D5AA2B1C45FF009B1A31 /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -312,19 +297,13 @@ Handwriting Fonts.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.
 			isa = PBXGroup;
 			children = (
 				9929F9352B161EAD00A1C1B6 /* Abuget.ttf */,
-				9929F9362B161EAD00A1C1B6 /* code block```
-Handwriting Fonts.zip */,
 				9929F9372B161EAD00A1C1B6 /* Handwriting Fonts (1). */,
-				9929F9452B161EAD00A1C1B6 /* Handwriting Fonts (1)..zip */,
-				9929F9462B161EAD00A1C1B6 /* Handwriting Fonts (3)..zip */,
 				9929F9472B161EAD00A1C1B6 /* Apalu.ttf */,
 				9929F9482B161EAD00A1C1B6 /* Reman.ttf */,
-				9929F9492B161EAD00A1C1B6 /* Handwriting Fonts (2)..zip */,
-				9929F94A2B161EAD00A1C1B6 /* Handwriting Fonts.zip */,
 				9929F94B2B161EAD00A1C1B6 /* angelina.TTF */,
 			);
 			name = Fonts;
-			path = BeChill/Fonts;
+			path = BeChill/Assets/Fonts;
 			sourceTree = SOURCE_ROOT;
 		};
 		9929F9372B161EAD00A1C1B6 /* Handwriting Fonts (1). */ = {
@@ -355,6 +334,65 @@ Handwriting Fonts.zip */,
 				9929F9882B179DBA00A1C1B6 /* SecureField.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9953D5A72B1C45C2009B1A31 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				9953D5A82B1C45DA009B1A31 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		9953D5AC2B1CDC36009B1A31 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				9953D5AD2B1CDC51009B1A31 /* TabStateScrollView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		99E57B712B1B6E9400D524EB /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				99E57B722B1B6ED400D524EB /* FeedView.swift */,
+				9953D5AF2B1CDD73009B1A31 /* HotFeedView.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		99E57B742B1B810000D524EB /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				9929F8D92B14C5B500A1C1B6 /* Assets.xcassets */,
+				9929F9342B161EAD00A1C1B6 /* Fonts */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		99E82FBA2B1DB7C900F39301 /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				999CF74C2B1ABC550054798E /* PostView.swift */,
+			);
+			path = Post;
+			sourceTree = "<group>";
+		};
+		99F83CE12B1B66E500497966 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				9929F9182B14CAFF00A1C1B6 /* SignInView.swift */,
+				9929F91A2B14CAFF00A1C1B6 /* SignUpView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		99F83CE22B1B683100497966 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				99F83CE32B1B688100497966 /* TabBarView.swift */,
+			);
+			path = TabBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -473,23 +511,17 @@ Handwriting Fonts.zip */,
 				9929F9542B161EAD00A1C1B6 /* Worstveld.pfb in Resources */,
 				9929F9572B161EAD00A1C1B6 /* Worstveld Oblique.pfb in Resources */,
 				9929F9512B161EAD00A1C1B6 /* Worstveld Oblique.inf in Resources */,
-				9929F95F2B161EAD00A1C1B6 /* Handwriting Fonts (2)..zip in Resources */,
-				9929F95C2B161EAD00A1C1B6 /* Handwriting Fonts (3)..zip in Resources */,
 				9929F9522B161EAD00A1C1B6 /* WorstveldSlingOblique.ttf in Resources */,
 				9929F9592B161EAD00A1C1B6 /* WorstveldSling.ttf in Resources */,
 				9929F94F2B161EAD00A1C1B6 /* Worstveld oblique.otf in Resources */,
-				9929F95B2B161EAD00A1C1B6 /* Handwriting Fonts (1)..zip in Resources */,
 				9929F8DD2B14C5B500A1C1B6 /* Preview Assets.xcassets in Resources */,
 				9929F8DA2B14C5B500A1C1B6 /* Assets.xcassets in Resources */,
 				9929F94C2B161EAD00A1C1B6 /* Abuget.ttf in Resources */,
-				9929F94D2B161EAD00A1C1B6 /* code block```
-Handwriting Fonts.zip in Resources */,
 				9929F94E2B161EAD00A1C1B6 /* Worstveld.inf in Resources */,
 				9929F9582B161EAD00A1C1B6 /* license.txt in Resources */,
 				9929F9612B161EAD00A1C1B6 /* angelina.TTF in Resources */,
 				9929F9502B161EAD00A1C1B6 /* Worstveld.otf in Resources */,
 				9929F9552B161EAD00A1C1B6 /* Worstveld Oblique.afm in Resources */,
-				9929F9602B161EAD00A1C1B6 /* Handwriting Fonts.zip in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,15 +546,15 @@ Handwriting Fonts.zip in Resources */,
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9929F9222B14CAFF00A1C1B6 /* SignUpOverlayView.swift in Sources */,
+				9953D5AB2B1C45FF009B1A31 /* User.swift in Sources */,
 				9929F97E2B16C01700A1C1B6 /* Post.swift in Sources */,
 				9929F9252B14CB0500A1C1B6 /* LogoNameView.swift in Sources */,
 				9929F9872B179DA400A1C1B6 /* TextField.swift in Sources */,
 				9929F9772B16BC8D00A1C1B6 /* AppRouter.swift in Sources */,
 				9929F91E2B14CAFF00A1C1B6 /* SignInView.swift in Sources */,
 				9929F98B2B179E0A00A1C1B6 /* Constants.swift in Sources */,
-				9929F91F2B14CAFF00A1C1B6 /* EmailInputView.swift in Sources */,
 				9929F90D2B14CAB800A1C1B6 /* Item.swift in Sources */,
+				9953D5A92B1C45DA009B1A31 /* ProfileView.swift in Sources */,
 				999CF74D2B1ABC550054798E /* PostView.swift in Sources */,
 				9929F92D2B14CBEF00A1C1B6 /* Utils.swift in Sources */,
 				9929F92C2B14CBEF00A1C1B6 /* Errors.swift in Sources */,
@@ -532,12 +564,15 @@ Handwriting Fonts.zip in Resources */,
 				9929F9292B14CBE700A1C1B6 /* SignInWithGoogle.swift in Sources */,
 				9929F9852B179CE300A1C1B6 /* Color.swift in Sources */,
 				9929F9682B16A6C100A1C1B6 /* RegularBlur.swift in Sources */,
+				99E57B732B1B6ED400D524EB /* FeedView.swift in Sources */,
+				9953D5AE2B1CDC51009B1A31 /* TabStateScrollView.swift in Sources */,
 				9929F8D42B14C5B400A1C1B6 /* BeChillApp.swift in Sources */,
 				9929F9282B14CBE700A1C1B6 /* SignInWithApple.swift in Sources */,
-				9929F9232B14CAFF00A1C1B6 /* SignInOverlayView.swift in Sources */,
 				9929F98D2B179E4300A1C1B6 /* UserDefaultsUtils.swift in Sources */,
 				9929F9892B179DBA00A1C1B6 /* SecureField.swift in Sources */,
+				99F83CE42B1B688100497966 /* TabBarView.swift in Sources */,
 				9929F9302B14CBF500A1C1B6 /* AuthService.swift in Sources */,
+				9953D5B02B1CDD73009B1A31 /* HotFeedView.swift in Sources */,
 				9929F9312B14CBF500A1C1B6 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -614,7 +649,6 @@ Handwriting Fonts.zip in Resources */,
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				"EXCLUDED_ARCHS[sdk=*]" = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;

@@ -24,7 +24,8 @@ import SwiftData
 struct BeChillApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            Item.self,
+            Post.self,
+            User.self,
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
@@ -40,7 +41,7 @@ struct BeChillApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabBarView()
         }
         .modelContainer(sharedModelContainer)
     }

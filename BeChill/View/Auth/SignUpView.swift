@@ -1,5 +1,5 @@
 //
-//  LoginView.swift
+//  SignUpView.swift
 //  BabyGenderPrediction
 //
 //  Created by Krzysztof Kubiak on 13/10/2023.
@@ -7,46 +7,38 @@
 
 import SwiftUI
 
-struct SignInView: View {
+struct SignUpView: View {
     @State private var email = ""
     @State private var password = ""
+    @Environment(\.dismiss) var dismiss
 
     var body: some View {
+
         NavigationStack {
             VStack {
                 Spacer()
 
                 LogoNameView()
                     .shadow(radius: 6, x: 2, y: 10)
-                    .frame(alignment: .center)
 
                 Spacer()
 
                 VStack {
                     VStack(alignment: .leading, spacing: 15) {
                         TextField("Email", text: self.$email)
-                            .roundedFieldWithBorder()
+                            .roundedFieldWithBorder(opacity: 1)
+                        //
 
                         SecureField("Password", text: self.$password)
                             .roundedFieldWithBorder()
                     }
                     .padding([.leading, .trailing], 27.5)
 
-                    NavigationLink {
-                        Text("Forgot password")
-                    } label: {
-                        Text("Forgot password?")
-                            .font(.footnote)
-                            .fontWeight(.semibold)
-                            .padding(.top)
-                            .padding(.trailing, 28)
-                            .foregroundColor(.black)
-                            .frame(maxWidth: .infinity, alignment: .trailing)
-                    }
-                    .frame(height: 40)
+                    Spacer()
+                        .frame(height: 40)
 
                     Button(action: {}) {
-                        Text("Sign in")
+                        Text("Sign up")
                             .font(.headline)
                             .foregroundColor(.white)
                             .padding()
@@ -54,23 +46,28 @@ struct SignInView: View {
                             .background(.black)
                             .cornerRadius(15.0)
                     }.padding(.top, 15)
-
-                    Spacer()
-                        .frame(height: 80)
-
-                    NavigationLink(destination: SignUpView()) {
-                        HStack {
-                            Text("Don't have an account?")
-
-                            Text("Sing up.")
-                                .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
-                        }
-                        .font(.footnote)
-                        .foregroundColor(.black)
-                    }
-                    .padding(.bottom, 0)
                 }
                 .shadow(radius: 6, x: 4, y: 15)
+
+
+
+                Spacer()
+                    .frame(height: 80)
+
+
+                Button (action: {dismiss()}) {
+                    HStack {
+                        Text("Already have an account?")
+
+                        Text("Sing in.")
+                            .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                    }
+                    .font(.footnote)
+                    .foregroundColor(.black)
+
+                    .shadow(radius: 6, x: 4, y: 10)
+                }
+                .padding(.bottom, 0)
             }
             .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, maxHeight: .infinity)
             .background(Color.BackgroundColor)
@@ -79,9 +76,8 @@ struct SignInView: View {
 }
 
 
-struct SignInView_Previews: PreviewProvider {
+struct SignUpView_Previews: PreviewProvider {
     static var previews: some View {
-        SignInView()
-
+        SignUpView()
     }
 }
