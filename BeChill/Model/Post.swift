@@ -29,7 +29,7 @@ final class Post {
 }
 
 extension Post {
-    static let mocks: [Post] = [
+    static var mocks: [Post] = [
         Post("Australians are funny Australians are funny Australians are funny Australians are funny Australians are funny Australians are funny", user: "Shane Gillis")
     ]
 }

@@ -40,10 +40,10 @@ struct SignUpView: View {
                     Button(action: {}) {
                         Text("Sign up")
                             .font(.headline)
-                            .foregroundColor(.white)
+                            .foregroundColor(.BackgroundColor)
                             .padding()
                             .frame(width: 300, height: 50)
-                            .background(.black)
+                            .background(Color.TextColor)
                             .cornerRadius(15.0)
                     }.padding(.top, 15)
                 }
@@ -63,7 +63,7 @@ struct SignUpView: View {
                             .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                     }
                     .font(.footnote)
-                    .foregroundColor(.black)
+                    .foregroundColor(.TextColor)
 
                     .shadow(radius: 6, x: 4, y: 10)
                 }

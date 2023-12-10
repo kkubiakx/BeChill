@@ -40,7 +40,7 @@ struct SignInView: View {
                             .fontWeight(.semibold)
                             .padding(.top)
                             .padding(.trailing, 28)
-                            .foregroundColor(.black)
+                            .foregroundColor(Color.TextColor)
                             .frame(maxWidth: .infinity, alignment: .trailing)
                     }
                     .frame(height: 40)
@@ -48,10 +48,10 @@ struct SignInView: View {
                     Button(action: {}) {
                         Text("Sign in")
                             .font(.headline)
-                            .foregroundColor(.white)
+                            .foregroundColor(Color.BackgroundColor)
                             .padding()
                             .frame(width: 300, height: 50)
-                            .background(.black)
+                            .background(Color.TextColor)
                             .cornerRadius(15.0)
                     }.padding(.top, 15)
 
@@ -66,7 +66,7 @@ struct SignInView: View {
                                 .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                         }
                         .font(.footnote)
-                        .foregroundColor(.black)
+                        .foregroundColor(.TextColor)
                     }
                     .padding(.bottom, 0)
                 }

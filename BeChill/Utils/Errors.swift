@@ -7,13 +7,11 @@
 
 import Foundation
 
-enum PredictionError: Error {
-    case ageOutOfRangeError
-    case monthOutOfRangeError
-
-}
-
-var errorMessages = [
-    PredictionError.ageOutOfRangeError: "Age must be 18-45",
-    PredictionError.monthOutOfRangeError: "Month mustt be 1-12",
-]
+//enum PredictionError: Error {
+//
+//}
+//
+//var errorMessages = [
+//    PredictionError.ageOutOfRangeError: "Age must be 18-45",
+//    PredictionError.monthOutOfRangeError: "Month mustt be 1-12",
+//]
